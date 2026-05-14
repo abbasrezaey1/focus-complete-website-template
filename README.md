@@ -7,7 +7,8 @@ A **self-contained, offline-friendly** export of the **JA Focus** news & magazin
 
 ## What you get
 
-- **Full page set**: Home, About, Blog, Gallery, Tech, Videos, Single article, Contact, Login, Registration, Search, Offline, and 404.
+- **Full page set**: Home, About, Blog, Gallery, **Tech** (`category.html` hub + `subcategory.html` sample subcategory), Videos, Single article, Contact, Login, Registration, Search, Offline, and 404.
+- **Category navigation**: Main menu **Tech** opens the **category** landing page (`category.html`). The former “Tech / Computer” listing lives at **`subcategory.html`**; megamenu links such as **Computer** and **Tech Tip** point there so you can add more subcategory HTML files later and retarget links.
 - **Shared design system**: Bootstrap-based layout, megamenu, off-canvas, Swiper carousels, image galleries, and the original JA Focus look.
 - **Local assets**: Styles in `./css/`, scripts in `./js/`, media in `./images/`. Paths are relative so the site works from disk or any subdirectory-aware server. All page references to those folders were checked so every linked file exists (no dead `respond.js`, no missing demo thumbnails).
 - **Search page**: Static layout only—there is **no live suggestion API** (the old empty `search-suggestions.json` + disabled autocomplete script were removed). The keyword field still works visually like the demo; wiring a real backend would be a separate step.
