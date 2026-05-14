@@ -37,8 +37,6 @@ A **self-contained, offline-friendly** export of the **JA Focus** news & magazin
 | `css/` | Stylesheets (`template.css`, Bootstrap, Font Awesome, modules) |
 | `js/` | jQuery, Joomla front-end scripts, Swiper, gallery, etc. |
 | `images/` | Logos, banners, article thumbs, icons |
-| `tools/` | Helper scripts (e.g. migrating utility pages to local paths) |
-| `*_files/` | Legacy export folders kept for reference or extra assets |
 
 ## Customization tips
 
