@@ -9,7 +9,8 @@ A **self-contained, offline-friendly** export of the **JA Focus** news & magazin
 
 - **Full page set**: Home, About, Blog, Gallery, Tech, Videos, Single article, Contact, Login, Registration, Search, Offline, and 404.
 - **Shared design system**: Bootstrap-based layout, megamenu, off-canvas, Swiper carousels, image galleries, and the original JA Focus look.
-- **Local assets**: Styles in `./css/`, scripts in `./js/`, media in `./images/`. Paths are relative so the site works from disk or any subdirectory-aware server.
+- **Local assets**: Styles in `./css/`, scripts in `./js/`, media in `./images/`. Paths are relative so the site works from disk or any subdirectory-aware server. All page references to those folders were checked so every linked file exists (no dead `respond.js`, no missing demo thumbnails).
+- **Search page**: Static layout only—there is **no live suggestion API** (the old empty `search-suggestions.json` + disabled autocomplete script were removed). The keyword field still works visually like the demo; wiring a real backend would be a separate step.
 - **Performance polish**: Google Fonts with `preconnect`, critical **WOFF2 preloads**, `display=swap`, **LCP header image preloads** (leaderboard + magazine strip), stable vertical scrollbar (`scrollbar-gutter`), and reduced font synthesis flicker—so navigation between pages stays visually steady.
 
 ## Quick start
